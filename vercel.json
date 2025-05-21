@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/birdcast.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/birdcast", "dest": "api/birdcast.js" }
+  ]
+}
